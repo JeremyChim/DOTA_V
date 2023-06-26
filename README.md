@@ -49,3 +49,6 @@ move "pak01_dir.vpk" "E:\GamePlatform\Steam\steamapps\common\dota 2 beta\game\0t
 [下载：Dota2SkinMod8-v2.zip](https://mega.nz/file/KqI01IiI#kAAVGlYfsCKUasNKvhYHcu5KBptMvOJ_jM9zW27u4zI)  
 > Mod without terrain,ranged effect, & emblem  
 > 无地形、远程效果和徽章的Mod  
+
+## 6、启动项
+> -novid -prewarm -high
