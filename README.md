@@ -39,16 +39,21 @@ move "pak01_dir.vpk" "E:\GamePlatform\Steam\steamapps\common\dota 2 beta\game\0t
 ```
 
 ## 5、下载MOD
+
 [链接：Dota 2 Skin Mods #8 From Youtube](https://www.youtube.com/watch?v=Wbb0cvLKXqE)  
+
 > 油管[Ant Way大神](https://www.youtube.com/@antway890)的皮肤MOD
-> 
+
 [下载：Dota2SkinMod8-v1.zip](https://mega.nz/file/rigWHCKC#nfdgLR9Y4nnLWhYjAfN9OCWaEz4YI3yCaylbWAj9ieo)  
+
 > Mod with Sactum divine terrain & emblem bp 2022  
 > 国防部与神圣地形和徽章 bp 2022  
 
 [下载：Dota2SkinMod8-v2.zip](https://mega.nz/file/KqI01IiI#kAAVGlYfsCKUasNKvhYHcu5KBptMvOJ_jM9zW27u4zI)  
+
 > Mod without terrain,ranged effect, & emblem  
 > 无地形、远程效果和徽章的Mod  
 
 ## 6、启动项
+
 > -novid -prewarm -high
