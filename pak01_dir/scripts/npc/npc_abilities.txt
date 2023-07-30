@@ -8940,24 +8940,24 @@
 		"IsGrantedByShard"				"1"
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCastPoint"				"0.2"
-		"AbilityCastRange"				"1500"
+		"AbilityCastPoint"				"0"
+		"AbilityCastRange"				"2250"
 		
 		// Time		
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"30"
+		"AbilityCooldown"				"27"
 		
 		// Cost
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityManaCost"				"150"
+		"AbilityManaCost"				"120"
 		
 		// Special
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityValues"
 		{
-			"duration"			"3"
-			"wind_strength"		"240"
-			"radius"			"1000"
+			"duration"			"3.6"
+			"wind_strength"		"480"
+			"radius"			"1500"
 		}
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_1"
 	}
@@ -8981,12 +8981,12 @@
 
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCastRange"				"800"
-		"AbilityCastPoint"				"0.15"
+		"AbilityCastRange"				"1200"
+		"AbilityCastPoint"				"0"
 		
 		// Time		
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"16 14 12 10"
+		"AbilityCooldown"				"9"
 
 		// Damage.
 		//-------------------------------------------------------------------------------------------------------------
@@ -8994,7 +8994,7 @@
 
 		// Cost
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityManaCost"				"70 80 90 100"
+		"AbilityManaCost"				"56"
 
 		// Special
 		//-------------------------------------------------------------------------------------------------------------
@@ -9003,23 +9003,23 @@
 			"01"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"fail_stun_duration"	"0.6"
+				"fail_stun_duration"	"2.1"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"stun_duration"			"1.6 2.1 2.6 3.1"
+				"stun_duration"			"2.6 3.1 3.6 4.1"
 				"LinkedSpecialBonus"	"special_bonus_unique_windranger_6"
 			}
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"shackle_distance"		"575"
+				"shackle_distance"		"863"
 			}
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"arrow_speed"			"1650"
+				"arrow_speed"			"3300"
 			}
 			"05"
 			{
@@ -9029,7 +9029,7 @@
 			"06"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"shackle_angle"			"23"
+				"shackle_angle"			"37"
 			}
 		}
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_1"
@@ -9052,18 +9052,18 @@
 
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCastRange"				"2600"
+		"AbilityCastRange"				"3900"
 		"AbilityCastPoint"				"0.0"
 		
 		// Time		
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"12 11 10 9"
+		"AbilityCooldown"				"8.1"
 		"AbilityChannelTime"			"1.0"
 
 
 		// Cost
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityManaCost"				"90 100 110 120"
+		"AbilityManaCost"				"72"
 
 		// Special
 		//-------------------------------------------------------------------------------------------------------------
@@ -9071,22 +9071,22 @@
 		{
 				"powershot_damage"			
 				{
-					"value"					"170 270 370 470"
+					"value"					"370 470 570 670"
 					"CalculateSpellDamageTooltip"	"1"
 				}
 				"damage_reduction"		
 				{
-					"value"				"20"
-					"special_bonus_unique_windranger_3"		"-15"
+					"value"				"16"
+					"special_bonus_unique_windranger_3"		"-30"
 					"CalculateSpellDamageTooltip"	"0"
 					"DamageTypeTooltip"	"DAMAGE_TYPE_NONE"
 				}
-				"arrow_width"			"125 125 125 125"
-				"arrow_range"			"3000"
-				"arrow_speed"			"3000.0 3000.0 3000.0 3000.0"
-				"tree_width"			"75 75 75 75"
-				"vision_radius"			"400"
-				"vision_duration"		"3.34 3.34 3.34 3.34"
+				"arrow_width"			"200"
+				"arrow_range"			"4500"
+				"arrow_speed"			"6000"
+				"tree_width"			"120"
+				"vision_radius"			"1200"
+				"vision_duration"		"9.68"
 		}
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_2"
 	}
@@ -9107,16 +9107,16 @@
 
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCastPoint"				"0.3 0.3 0.3 0.3"
+		"AbilityCastPoint"				"0"
 
 		// Time		
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"15 14 13 12"
-		"AbilityDuration"				"3 4 5 6"
+		"AbilityCooldown"				"10.8"
+		"AbilityDuration"				"5 6 7 8"
 	
 		// Cost
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityManaCost"				"50"
+		"AbilityManaCost"				"40"
 
 		// Stats
 		//-------------------------------------------------------------------------------------------------------------
@@ -9126,26 +9126,26 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityValues"
 		{
-			"movespeed_bonus_pct"	"60"		
+			"movespeed_bonus_pct"	"96"		
 			"evasion_pct_tooltip"	"100"
 			"enemy_movespeed_bonus_pct"	
 			{
-				"value"		"-15 -20 -25 -30"
+				"value"		"-25 -30 -35 -40"
 			}
 			"radius"					
 			{	
-				"value"			"325"
-				"special_bonus_unique_windranger"	"+225"
+				"value"			"488"
+				"special_bonus_unique_windranger"	"+450"
 			}
 			"scepter_movespeed_bonus_pct"			
 			{
 				"RequiresScepter" "1"
-				"value"			"-35 -40 -45 -50"
+				"value"			"-45 -50 -55 -60"
 			}
 			"physical_damage_pct"
 			{
 				"value"				"0"
-				"special_bonus_scepter"		"-35"
+				"special_bonus_scepter"		"-47"
 			}
 			"cannot_be_dispelled"
 			{
@@ -9153,7 +9153,7 @@
 				"special_bonus_unique_windranger_windrun_undispellable"			"+1"
 			}
 			
-			"duration"					"3 4 5 6"
+			"duration"					"5 6 7 8"
 		}
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_3"
 	}
@@ -9179,27 +9179,27 @@
 
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCastRange"				"600"
+		"AbilityCastRange"				"900"
 		"AbilityCastPoint"				"0"
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_4"
 		
 		// Time		
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"70 50 30"
-		"AbilityDuration"				"20.0"
+		"AbilityCooldown"				"27"
+		"AbilityDuration"				"24"
 
 		// Cost
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityManaCost"				"75 100 125"
+		"AbilityManaCost"				"60"
 
 		// Special
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityValues"
 		{
-				"bonus_attack_speed"			"350 425 500"
+				"bonus_attack_speed"			"500 575 650"
 				"focusfire_damage_reduction"	
 				{
-					"value"						"-30"
+					"value"						"-21"
 					"LinkedSpecialBonus"		"special_bonus_unique_windranger_8"
 				}
 				"focusfire_fire_on_the_move"	"1"
@@ -39973,8 +39973,8 @@
 
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCastPoint"				"0"
-		"AbilityCastRange"				"1275"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCastRange"				"850"
 
 		// Time
 		//-------------------------------------------------------------------------------------------------------------
@@ -39982,32 +39982,32 @@
 
 		// Cost
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityManaCost"				"60"
+		"AbilityManaCost"				"75 80 85 90"
 
 		// Special
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityValues"
 		{
-			"start_radius"				"135"
-			"end_radius"				"135"
-			"radius"					"450"
-			"projectile_speed"			"1800"
+			"start_radius"				"90"
+			"end_radius"				"90"
+			"radius"					"300"
+			"projectile_speed"			"900"
 			"remnant_watch_distance"
 			{
-				"value"		"675"
-				"special_bonus_shard"		"+300"
+				"value"		"450"
+				"special_bonus_shard"		"+150"
 			}
-			"remnant_watch_radius"		"195"
-			"watch_path_vision_radius"	"800"
-			"activation_delay"		"0.32"
+			"remnant_watch_radius"		"130"
+			"watch_path_vision_radius"	"200"
+			"activation_delay"		"0.4"
 			"impact_damage"
 			{
-				"value"			"170 220 270 320"
-				"special_bonus_unique_void_spirit_2"	"+100"
+				"value"			"70 120 170 220"
+				"special_bonus_unique_void_spirit_2"	"+50"
 			}
-			"pull_duration"			"1.4 1.6 1.8 2.0"
-			"pull_destination"		"56 62 68 74"
-			"duration"				"24.0"
+			"pull_duration"			"1.0 1.2 1.4 1.6"
+			"pull_destination"		"44 50 56 62"
+			"duration"				"20.0"
 			"think_interval"		"0.1"
 			"pierces_creeps"
 			{
@@ -40016,8 +40016,8 @@
 			}
 			"AbilityCooldown"				
 			{
-				"value"							"9.9"
-				"special_bonus_shard"			"-4"
+				"value"							"17.0 15.0 13.0 11.0"
+				"special_bonus_shard"			"-2"
 			}
 			
 		}
@@ -40044,19 +40044,19 @@
 
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCastPoint"				"0"
+		"AbilityCastPoint"				"0.3"
 
 		// Time
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"9.9"
+		"AbilityCooldown"				"20 17 14 11"
 
 		// Damage
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityDamage"					"260 340 420 500"
+		"AbilityDamage"					"100 180 260 340"
 
 		// Cost
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityManaCost"				"104"
+		"AbilityManaCost"				"130"
 
 		// Special
 		//-------------------------------------------------------------------------------------------------------------
@@ -40066,8 +40066,8 @@
 			"destination_fx_radius"	"183" // proportional to distance_offset
 			"portals_per_ring"		"6"
 			"angle_per_ring_portal"	"60"
-			"first_ring_distance_offset"	"780"
-			"damage_radius"			"412" // proportional to distance_offset
+			"first_ring_distance_offset"	"520"
+			"damage_radius"			"275" // proportional to distance_offset
 			"has_outer_ring"
 			{
 				"value"				"0"
@@ -40096,39 +40096,39 @@
 
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCastPoint"				"0"
+		"AbilityCastPoint"				"0.2"
 
 		// Time		
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityCooldown"				"0"
-		"AbilityCharges"		"3"
+		"AbilityCharges"		"2"
 		// Cost
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityManaCost"				"80"
+		"AbilityManaCost"				"100"
 
 		// Special
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityValues"
 		{
-				"radius"				"255"
+				"radius"				"170"
 				"AbilityChargeRestoreTime"	
 				{
-					"value"			"16.2"
-					"special_bonus_unique_void_spirit_1"	"-8"
+					"value"			"28 23 18"
+					"special_bonus_unique_void_spirit_1"	"-4"
 				}
 				"min_travel_distance"	"200"
-				"max_travel_distance"	"1000 1100 1200"
+				"max_travel_distance"	"800 900 1000"
 				"pop_damage_delay"		
 				{
-					"value"	"1.0"
+					"value"	"1.25"
 					"DamageTypeTooltip"		"DAMAGE_TYPE_NONE"
 				}
 				"pop_damage"			
 				{
-					"value"					"330 430 530"
+					"value"					"130 230 330"
 					"CalculateSpellDamageTooltip"	"1"
 				}
-				"movement_slow_pct"		"80 100 120"
+				"movement_slow_pct"		"40 60 80"
 				"ability_chance_pct"
 				{
 					"value"				"0"
@@ -40167,11 +40167,11 @@
 
 		// Time
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"16.2"
+		"AbilityCooldown"				"18"
 
 		// Cost
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityManaCost"				"92"
+		"AbilityManaCost"				"115 120 125 130"
 
 		// Special
 		//-------------------------------------------------------------------------------------------------------------
@@ -40180,55 +40180,55 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"radius"				"750"
+				"radius"				"500"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"speed"					"2400"
+				"speed"					"1200"
 			}
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"damage"				"150 195 240 285"
+				"damage"				"60 105 150 195"
 				"LinkedSpecialBonus"	"special_bonus_unique_void_spirit_4"
 			}
 			"04"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"buff_duration"			"12.0"
+				"buff_duration"			"10.0"
 			}
 			"05"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"base_absorb_amount"	"120 160 200 240"
+				"base_absorb_amount"	"40 80 120 160"
 			}
 			"06"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"absorb_per_hero_hit"	"70 90 110 130"
+				"absorb_per_hero_hit"	"30 50 70 90"
 			}
 			"07"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"return_projectile_speed"	"1800"
+				"return_projectile_speed"	"900"
 			}
 			"08"
 			{
 				"var_type"			"FIELD_INTEGER"
-				"max_charges"		"3"
+				"max_charges"		"2"
 				"RequiresScepter"			"1"
 			}
 			"09"
 			{
 				"var_type"			"FIELD_INTEGER"
-				"charge_restore_time"		"16.2"
+				"charge_restore_time"		"18"
 				"RequiresScepter"			"1"
 			}
 			"10"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"silence_duration_scepter"			"2.4"
+				"silence_duration_scepter"			"2.0"
 				"RequiresScepter"			"1"
 			}
 		}
@@ -40279,7 +40279,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"value"					"4"
+				"value"					"2"
 				"ad_linked_abilities"		"void_spirit_dissimilate"				// this is the ability this bonus affects.  This line is required for Ability Draft to correctly choose talents.
 			}
 		}
@@ -40303,7 +40303,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"value"					"140"
+				"value"					"70"
 				"ad_linked_abilities"		"void_spirit_resonant_pulse"				// this is the ability this bonus affects.  This line is required for Ability Draft to correctly choose talents.
 			}
 		}
@@ -40375,7 +40375,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"value"					"950"
+				"value"					"475"
 				"ad_linked_abilities"		"void_spirit_aether_remnant"				// this is the ability this bonus affects.  This line is required for Ability Draft to correctly choose talents.
 			}
 		}
@@ -40399,7 +40399,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"value"					"280" // (Astral Step Crit)
+				"value"					"140" // (Astral Step Crit)
 				"ad_linked_abilities"		"void_spirit_astral_step"				// this is the ability this bonus affects.  This line is required for Ability Draft to correctly choose talents.
 			}
 		}
@@ -70203,7 +70203,7 @@
 			"01"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"value"				"20"
+				"value"				"40"
 				"ad_linked_abilities"			"windrunner_focusfire"				// this is the ability this bonus affects.  This line is required for Ability Draft to correctly choose talents.
 			}
 		}
@@ -70243,7 +70243,7 @@
 			"01"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"value"				"3"
+				"value"				"6"
 			}
 		}
 	}
@@ -70290,7 +70290,7 @@
 			"01"
 			{
 				"var_type"					"FIELD_FLOAT"
-				"value"				"0.65"
+				"value"				"1.3"
 				"ad_linked_abilities"			"windrunner_shackleshot"				// this is the ability this bonus affects.  This line is required for Ability Draft to correctly choose talents.
 			}
 		}
@@ -70338,7 +70338,7 @@
 			"01"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"value"				"12"
+				"value"				"24"
 				"ad_linked_abilities"			"windrunner_focusfire"				// this is the ability this bonus affects.  This line is required for Ability Draft to correctly choose talents.
 			}
 		}
@@ -70362,7 +70362,7 @@
 			"01"
 			{
 				"var_type"					"FIELD_FLOAT"
-				"value"				"2"
+				"value"				"4"
 				"ad_linked_abilities"			"windrunner_shackleshot"				// this is the ability this bonus affects.  This line is required for Ability Draft to correctly choose talents.
 			}
 		}
