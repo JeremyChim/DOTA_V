@@ -39974,7 +39974,7 @@
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityCastPoint"				"0.0"
-		"AbilityCastRange"				"850"
+		"AbilityCastRange"				"1020"
 
 		// Time
 		//-------------------------------------------------------------------------------------------------------------
@@ -39982,33 +39982,33 @@
 
 		// Cost
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityManaCost"				"75 80 85 90"
+		"AbilityManaCost"				"60 64 68 72"
 
 		// Special
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityValues"
 		{
-			"start_radius"				"90"
-			"end_radius"				"90"
-			"radius"					"300"
-			"projectile_speed"			"900"
+			"start_radius"				"108"
+			"end_radius"				"108"
+			"radius"					"360"
+			"projectile_speed"			"1080"
 			"remnant_watch_distance"
 			{
-				"value"		"450"
+				"value"		"540"
 				"special_bonus_shard"		"+150"
 			}
-			"remnant_watch_radius"		"130"
-			"watch_path_vision_radius"	"200"
-			"activation_delay"		"0.4"
+			"remnant_watch_radius"		"156"
+			"watch_path_vision_radius"	"240"
+			"activation_delay"		"0.32"
 			"impact_damage"
 			{
-				"value"			"70 120 170 220"
-				"special_bonus_unique_void_spirit_2"	"+50"
+				"value"			"84 144 204 264"
+				"special_bonus_unique_void_spirit_2"	"+100"
 			}
-			"pull_duration"			"1.0 1.2 1.4 1.6"
-			"pull_destination"		"44 50 56 62"
-			"duration"				"20.0"
-			"think_interval"		"0.1"
+			"pull_duration"			"1.2 1.4 1.6 1.9"
+			"pull_destination"		"52 60 67 74"
+			"duration"				"24.0"
+			"think_interval"		"0.08"
 			"pierces_creeps"
 			{
 				"value"							"0"
@@ -40016,8 +40016,8 @@
 			}
 			"AbilityCooldown"				
 			{
-				"value"							"17.0 15.0 13.0 11.0"
-				"special_bonus_shard"			"-2"
+				"value"							"13.6 12 10.4 8.8"
+				"special_bonus_shard"			"-2.4"
 			}
 			
 		}
@@ -40044,30 +40044,30 @@
 
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCastPoint"				"0.3"
+		"AbilityCastPoint"				"0.24"
 
 		// Time
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"20 17 14 11"
+		"AbilityCooldown"				"16 13.6 11.2 8.8"
 
 		// Damage
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityDamage"					"100 180 260 340"
+		"AbilityDamage"					"120 216 312 408"
 
 		// Cost
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityManaCost"				"130"
+		"AbilityManaCost"				"104"
 
 		// Special
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityValues"
 		{
-			"phase_duration"		"1.3"
+			"phase_duration"		"1.04"
 			"destination_fx_radius"	"183" // proportional to distance_offset
 			"portals_per_ring"		"6"
 			"angle_per_ring_portal"	"60"
-			"first_ring_distance_offset"	"520"
-			"damage_radius"			"275" // proportional to distance_offset
+			"first_ring_distance_offset"	"624"
+			"damage_radius"			"330" // proportional to distance_offset
 			"has_outer_ring"
 			{
 				"value"				"0"
@@ -40096,39 +40096,39 @@
 
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCastPoint"				"0.2"
+		"AbilityCastPoint"				"0.16"
 
 		// Time		
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityCooldown"				"0"
-		"AbilityCharges"		"2"
+		"AbilityCharges"		"3"
 		// Cost
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityManaCost"				"100"
+		"AbilityManaCost"				"80"
 
 		// Special
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityValues"
 		{
-				"radius"				"170"
+				"radius"				"204"
 				"AbilityChargeRestoreTime"	
 				{
-					"value"			"28 23 18"
-					"special_bonus_unique_void_spirit_1"	"-4"
+					"value"			"22.4 18.4 14.4"
+					"special_bonus_unique_void_spirit_1"	"-8"
 				}
-				"min_travel_distance"	"200"
-				"max_travel_distance"	"800 900 1000"
+				"min_travel_distance"	"240"
+				"max_travel_distance"	"960 1080 1200"
 				"pop_damage_delay"		
 				{
-					"value"	"1.25"
+					"value"	"1.0"
 					"DamageTypeTooltip"		"DAMAGE_TYPE_NONE"
 				}
 				"pop_damage"			
 				{
-					"value"					"130 230 330"
+					"value"					"156 276 396"
 					"CalculateSpellDamageTooltip"	"1"
 				}
-				"movement_slow_pct"		"40 60 80"
+				"movement_slow_pct"		"48 72 96"
 				"ability_chance_pct"
 				{
 					"value"				"0"
@@ -40167,11 +40167,11 @@
 
 		// Time
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"18"
+		"AbilityCooldown"				"14.4"
 
 		// Cost
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityManaCost"				"115 120 125 130"
+		"AbilityManaCost"				"92 96 100 104"
 
 		// Special
 		//-------------------------------------------------------------------------------------------------------------
@@ -40180,55 +40180,55 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"radius"				"500"
+				"radius"				"600"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"speed"					"1200"
+				"speed"					"1440"
 			}
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"damage"				"60 105 150 195"
+				"damage"				"72 126 180 234"
 				"LinkedSpecialBonus"	"special_bonus_unique_void_spirit_4"
 			}
 			"04"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"buff_duration"			"10.0"
+				"buff_duration"			"12.0"
 			}
 			"05"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"base_absorb_amount"	"40 80 120 160"
+				"base_absorb_amount"	"48 96 144 192"
 			}
 			"06"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"absorb_per_hero_hit"	"30 50 70 90"
+				"absorb_per_hero_hit"	"36 60 84 108"
 			}
 			"07"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"return_projectile_speed"	"900"
+				"return_projectile_speed"	"1080"
 			}
 			"08"
 			{
 				"var_type"			"FIELD_INTEGER"
-				"max_charges"		"2"
+				"max_charges"		"3"
 				"RequiresScepter"			"1"
 			}
 			"09"
 			{
 				"var_type"			"FIELD_INTEGER"
-				"charge_restore_time"		"18"
+				"charge_restore_time"		"14.4"
 				"RequiresScepter"			"1"
 			}
 			"10"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"silence_duration_scepter"			"2.0"
+				"silence_duration_scepter"			"2.4"
 				"RequiresScepter"			"1"
 			}
 		}
@@ -40279,7 +40279,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"value"					"2"
+				"value"					"4"
 				"ad_linked_abilities"		"void_spirit_dissimilate"				// this is the ability this bonus affects.  This line is required for Ability Draft to correctly choose talents.
 			}
 		}
@@ -40303,7 +40303,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"value"					"70"
+				"value"					"140"
 				"ad_linked_abilities"		"void_spirit_resonant_pulse"				// this is the ability this bonus affects.  This line is required for Ability Draft to correctly choose talents.
 			}
 		}
@@ -40375,7 +40375,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"value"					"475"
+				"value"					"950"
 				"ad_linked_abilities"		"void_spirit_aether_remnant"				// this is the ability this bonus affects.  This line is required for Ability Draft to correctly choose talents.
 			}
 		}
@@ -40399,7 +40399,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"value"					"140" // (Astral Step Crit)
+				"value"					"280" // (Astral Step Crit)
 				"ad_linked_abilities"		"void_spirit_astral_step"				// this is the ability this bonus affects.  This line is required for Ability Draft to correctly choose talents.
 			}
 		}
