@@ -94,7 +94,7 @@ def _float_calc_(old_arg_list, dec_point, mul_arg, add_arg):
         add_arg = float(add_arg)
 
         new_arg = old_arg * mul_arg + add_arg
-        new_arg = f'%.{dec_point}' % new_arg
+        new_arg = f'%.{dec_point}f' % new_arg
         new_arg = str(new_arg)
         new_arg_list.append(new_arg)
 
