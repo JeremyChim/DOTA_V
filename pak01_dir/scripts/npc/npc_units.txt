@@ -509,8 +509,8 @@
 		// Bounty
 		//----------------------------------------------------------------
 		"BountyXP"					"138"		// Experience earn.
-		"BountyGoldMin"				"172"		// Gold earned min.
-		"BountyGoldMax"				"208"		// Gold earned max.
+		"BountyGoldMin"				"86"		// Gold earned min.
+		"BountyGoldMax"				"104"		// Gold earned max.
 
 		// Bounds
 		//----------------------------------------------------------------
@@ -600,8 +600,8 @@
 		// Bounty
 		//----------------------------------------------------------------
 		"BountyXP"					"44"		// Experience earn.
-		"BountyGoldMin"				"76"		// Gold earned min.
-		"BountyGoldMax"				"100"		// Gold earned max.
+		"BountyGoldMin"				"38"		// Gold earned min.
+		"BountyGoldMax"				"50"		// Gold earned max.
 
 		// Bounds
 		//----------------------------------------------------------------
@@ -691,8 +691,8 @@
 		// Bounty
 		//----------------------------------------------------------------
 		"BountyXP"					"44"		// Experience earn.
-		"BountyGoldMin"				"76"		// Gold earned min.
-		"BountyGoldMax"				"100"		// Gold earned max.
+		"BountyGoldMin"				"38"		// Gold earned min.
+		"BountyGoldMax"				"50"		// Gold earned max.
 
 		// Bounds
 		//----------------------------------------------------------------
@@ -1325,8 +1325,8 @@
 		// Bounty
 		//----------------------------------------------------------------
 		"BountyXP"					"114"		// Experience earn.
-		"BountyGoldMin"				"136"		// Gold earned min.
-		"BountyGoldMax"				"156"		// Gold earned max.
+		"BountyGoldMin"				"68"		// Gold earned min.
+		"BountyGoldMax"				"78"		// Gold earned max.
 
 		// Bounds
 		//----------------------------------------------------------------
@@ -1416,8 +1416,8 @@
 		// Bounty
 		//----------------------------------------------------------------
 		"BountyXP"					"114"		// Experience earn.
-		"BountyGoldMin"				"136"		// Gold earned min.
-		"BountyGoldMax"				"156"		// Gold earned max.
+		"BountyGoldMin"				"68"		// Gold earned min.
+		"BountyGoldMax"				"78"		// Gold earned max.
 
 		// Bounds
 		//----------------------------------------------------------------
@@ -1507,8 +1507,8 @@
 		// Bounty
 		//----------------------------------------------------------------
 		"BountyXP"					"50"		// Experience earn.
-		"BountyGoldMin"				"80"		// Gold earned min.
-		"BountyGoldMax"				"104"		// Gold earned max.
+		"BountyGoldMin"				"40"		// Gold earned min.
+		"BountyGoldMax"				"52"		// Gold earned max.
 
 		// Bounds
 		//----------------------------------------------------------------
@@ -1597,8 +1597,8 @@
 		// Bounty
 		//----------------------------------------------------------------
 		"BountyXP"					"50"		// Experience earn.
-		"BountyGoldMin"				"80"		// Gold earned min.
-		"BountyGoldMax"				"104"		// Gold earned max.
+		"BountyGoldMin"				"40"		// Gold earned min.
+		"BountyGoldMax"				"52"		// Gold earned max.
 
 		// Bounds
 		//----------------------------------------------------------------
@@ -1687,8 +1687,8 @@
 		// Bounty
 		//----------------------------------------------------------------
 		"BountyXP"					"50"		// Experience earn.
-		"BountyGoldMin"				"80"		// Gold earned min.
-		"BountyGoldMax"				"104"		// Gold earned max.
+		"BountyGoldMin"				"40"		// Gold earned min.
+		"BountyGoldMax"				"52"		// Gold earned max.
 
 		// Bounds
 		//----------------------------------------------------------------
@@ -1777,8 +1777,8 @@
 		// Bounty
 		//----------------------------------------------------------------
 		"BountyXP"					"50"		// Experience earn.
-		"BountyGoldMin"				"80"		// Gold earned min.
-		"BountyGoldMax"				"104"		// Gold earned max.
+		"BountyGoldMin"				"40"		// Gold earned min.
+		"BountyGoldMax"				"52"		// Gold earned max.
 
 		// Bounds
 		//----------------------------------------------------------------
@@ -5941,8 +5941,8 @@
 		// Bounty
 		//----------------------------------------------------------------
 		"BountyXP"					"176"		// Experience earn.
-		"BountyGoldMin"				"236"		// Gold earned min.
-		"BountyGoldMax"				"288"		// Gold earned max.
+		"BountyGoldMin"				"118"		// Gold earned min.
+		"BountyGoldMax"				"144"		// Gold earned max.
 
 		// Bounds
 		//----------------------------------------------------------------
@@ -6034,9 +6034,9 @@
 		// Bounty
 		//----------------------------------------------------------------
 		"BountyXP"					"176"		// Experience earn.
-		"BountyGoldMin"				"236"		// Gold earned min.
-		"BountyGoldMax"				"288"		// Gold earned max.
-		
+		"BountyGoldMin"				"118"		// Gold earned min.
+		"BountyGoldMax"				"144"		// Gold earned max.
+
 		// Bounds
 		//----------------------------------------------------------------
 		"BoundsHullName"			"DOTA_HULL_SIZE_SIEGE"			// Hull type used for navigation/locomotion.
@@ -6127,8 +6127,8 @@
 		// Bounty
 		//----------------------------------------------------------------
 		"BountyXP"					"176"		// Experience earn.
-		"BountyGoldMin"				"236"		// Gold earned min.
-		"BountyGoldMax"				"288"		// Gold earned max.
+		"BountyGoldMin"				"118"		// Gold earned min.
+		"BountyGoldMax"				"144"		// Gold earned max.
 
 		// Bounds
 		//----------------------------------------------------------------
@@ -11713,7 +11713,7 @@
 		"AttackDamageMin"			"13"		// Damage range min.
 		"AttackDamageMax"			"15"		// Damage range max.
 		"AttackDamageType"			"DAMAGE_TYPE_ArmorPhysical"
-		"AttackRate"				"1.35"		// Speed of attack.
+		"AttackRate"				"1.2"		// Speed of attack.
 		"AttackAnimationPoint"		"0.5"		// Normalized time in animation cycle to attack.
 		"AttackAcquisitionRange"	"500"		// Range within a target can be acquired.
 		"AttackRange"				"100"		// Range within a target can be attacked.
@@ -11800,7 +11800,7 @@
 		"AttackDamageMin"			"9"		// Damage range min.
 		"AttackDamageMax"			"10"		// Damage range max.
 		"AttackDamageType"			"DAMAGE_TYPE_ArmorPhysical"
-		"AttackRate"				"1.35"		// Speed of attack.
+		"AttackRate"				"1.2"		// Speed of attack.
 		"AttackAnimationPoint"		"0.5"		// Normalized time in animation cycle to attack.
 		"AttackAcquisitionRange"	"500"		// Range within a target can be acquired.
 		"AttackRange"				"100"		// Range within a target can be attacked.
@@ -13606,8 +13606,8 @@
 		
 		// Vision
 		//----------------------------------------------------------------
-		"VisionDaytimeRange"		"1500"		// Range of vision during day light.
-		"VisionNighttimeRange"		"1500"		// Range of vision at night time.
+		"VisionDaytimeRange"		"1200"		// Range of vision during day light.
+		"VisionNighttimeRange"		"1200"		// Range of vision at night time.
 	}
 
 	"npc_dota_unit_tombstone2"
@@ -13676,8 +13676,8 @@
 		
 		// Vision
 		//----------------------------------------------------------------
-		"VisionDaytimeRange"		"1500"		// Range of vision during day light.
-		"VisionNighttimeRange"		"1500"		// Range of vision at night time.
+		"VisionDaytimeRange"		"1200"		// Range of vision during day light.
+		"VisionNighttimeRange"		"1200"		// Range of vision at night time.
 	}
 
 	"npc_dota_unit_tombstone3"
@@ -13746,8 +13746,8 @@
 		
 		// Vision
 		//----------------------------------------------------------------
-		"VisionDaytimeRange"		"1500"		// Range of vision during day light.
-		"VisionNighttimeRange"		"1500"		// Range of vision at night time.
+		"VisionDaytimeRange"		"1200"		// Range of vision during day light.
+		"VisionNighttimeRange"		"1200"		// Range of vision at night time.
 	}
 
 	"npc_dota_unit_tombstone4"
@@ -13816,8 +13816,8 @@
 		
 		// Vision
 		//----------------------------------------------------------------
-		"VisionDaytimeRange"		"1500"		// Range of vision during day light.
-		"VisionNighttimeRange"		"1500"		// Range of vision at night time.
+		"VisionDaytimeRange"		"1200"		// Range of vision during day light.
+		"VisionNighttimeRange"		"1200"		// Range of vision at night time.
 	}
 
 
